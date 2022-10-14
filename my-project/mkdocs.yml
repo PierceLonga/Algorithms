@@ -2,6 +2,7 @@ site_name: Pierce Longamore
 
 
 nav:
-    - Pierce: index.md
+    - Pierce: pierce.md
     - About: about.md
-    
+    - Arrays: arrays.md
+
