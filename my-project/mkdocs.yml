@@ -1,0 +1,7 @@
+site_name: Pierce Longamore
+
+
+nav:
+    - Pierce: index.md
+    - About: about.md
+    
