@@ -5,4 +5,10 @@ nav:
     - Pierce: pierce.md
     - About: about.md
     - Arrays: arrays.md
+    - Queues: queues.md
+    - Stack: stack.md
+    - Trees: trees.md
+    - Graphs: graphs.md
+    - Sets: sets.md
+    - Hash Tables: hash tables.md
 
