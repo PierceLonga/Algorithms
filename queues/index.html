@@ -103,11 +103,6 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="1"><a href="#careful-this-is-slow" class="nav-link">Careful: This is slow!</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
         </ul>
     </div>
 </div></div>
@@ -115,29 +110,24 @@
 
 <h1 id="queues">Queues</h1>
 <p>A queue is a collection of objects that supports fast first-in, first-out (FIFO) semantics for inserts and deletes. The insert and delete operations sometimes called enqueue and dequeue. Unlike lists or arrays, queues typically don't allow for random access to the objects they contain.
-https://dbader.org/blog/queues-in-python#:~:text=A%20queue%20is%20a%20collection,to%20the%20objects%20they%20contain.
-```# How to use Python's list as a FIFO queue:</p>
-<p>q = []</p>
-<p>q.append('eat')
+https://dbader.org/blog/queues-in-python#:~:text=A%20queue%20is%20a%20collection,to%20the%20objects%20they%20contain.</p>
+<pre><code># How to use Python's list as a FIFO queue:
+
+'''
+'''
+q = []
+
+q.append('eat')
 q.append('sleep')
-q.append('code')</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>q
-['eat', 'sleep', 'code']</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h1 id="careful-this-is-slow">Careful: This is slow!</h1>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>q.pop(0)
-'eat'```</p>
-</blockquote>
-</blockquote>
-</blockquote></div>
+q.append('code')
+
+&gt;&gt;&gt; q
+['eat', 'sleep', 'code']
+
+# Careful: This is slow!
+&gt;&gt;&gt; q.pop(0)
+'eat'
+</code></pre></div>
             </div>
         </div>
 
