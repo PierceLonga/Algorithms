@@ -3,7 +3,6 @@ site_name: Pierce Longamore
 
 nav:
     - Pierce: pierce.md
-    - About: about.md
     - Arrays: arrays.md
     - Queues: queues.md
     - Stack: stack.md
