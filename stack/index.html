@@ -37,9 +37,6 @@
                                 <a href="../pierce/" class="nav-link">Pierce</a>
                             </li>
                             <li class="navitem">
-                                <a href="../about.md" class="nav-link">About</a>
-                            </li>
-                            <li class="navitem">
                                 <a href="../arrays/" class="nav-link">Arrays</a>
                             </li>
                             <li class="navitem">
@@ -104,56 +101,14 @@
             
             <li class="nav-item" data-level="1"><a href="#stack" class="nav-link">Stack</a>
               <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#demonstrate-stack-implementation" class="nav-link">demonstrate stack implementation</a>
+            <li class="nav-item" data-level="2"><a href="#demonstrate-stack-implementation-using-list" class="nav-link">demonstrate stack implementation  using list</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="1"><a href="#using-list" class="nav-link">using list</a>
+            <li class="nav-item" data-level="2"><a href="#append-function-to-push-element-in-the-stack" class="nav-link">append() function to push element in the stack</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="1"><a href="#append-function-to-push" class="nav-link">append() function to push</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#element-in-the-stack" class="nav-link">element in the stack</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#pop-function-to-pop" class="nav-link">pop() function to pop</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#element-from-stack-in" class="nav-link">element from stack in</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#lifo-order" class="nav-link">LIFO order</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#uncommenting-printstackpop" class="nav-link">uncommenting print(stack.pop())</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#will-cause-an-indexerror" class="nav-link">will cause an IndexError</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#as-the-stack-is-now-empty" class="nav-link">as the stack is now empty```</a>
-              <ul class="nav flex-column">
               </ul>
             </li>
         </ul>
@@ -165,28 +120,30 @@
 <p>A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop.
 https://www.geeksforgeeks.org/stack-in-python/#:~:text=A%20stack%20is%20a%20linear,often%20called%20push%20and%20pop.
 ```# Python program to</p>
-<h1 id="demonstrate-stack-implementation">demonstrate stack implementation</h1>
-<h1 id="using-list">using list</h1>
-<p>stack = []</p>
-<h1 id="append-function-to-push">append() function to push</h1>
-<h1 id="element-in-the-stack">element in the stack</h1>
-<p>stack.append('a')
+<h2 id="demonstrate-stack-implementation-using-list">demonstrate stack implementation  using list</h2>
+<p><code>stack = []</code></p>
+<h2 id="append-function-to-push-element-in-the-stack">append() function to push element in the stack</h2>
+<pre><code>stack.append('a')
 stack.append('b')
-stack.append('c')</p>
-<p>print('Initial stack')
-print(stack)</p>
-<h1 id="pop-function-to-pop">pop() function to pop</h1>
-<h1 id="element-from-stack-in">element from stack in</h1>
-<h1 id="lifo-order">LIFO order</h1>
-<p>print('\nElements popped from stack:')
+stack.append('c')
+
+print('Initial stack')
+print(stack)
+
+ pop() function to pop
+ element from stack in
+ LIFO order
+
+
+print('\nElements popped from stack:')
 print(stack.pop())
 print(stack.pop())
-print(stack.pop())</p>
-<p>print('\nStack after elements are popped:')
-print(stack)</p>
-<h1 id="uncommenting-printstackpop">uncommenting print(stack.pop())</h1>
-<h1 id="will-cause-an-indexerror">will cause an IndexError</h1>
-<h1 id="as-the-stack-is-now-empty">as the stack is now empty```</h1></div>
+print(stack.pop())
+
+print('\nStack after elements are popped:')
+print(stack)
+</code></pre>
+<p>uncommenting print(stack.pop()) will cause an IndexError as the stack is now empty</p></div>
             </div>
         </div>
 
