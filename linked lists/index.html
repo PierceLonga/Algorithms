@@ -98,31 +98,36 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#linked-lists" class="nav-link">Linked lists</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#demonstrate-linked-list" class="nav-link">Demonstrate Linked List</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p>•   Linked lists
-A linked list is a collection of nodes. The first node is called the head , and it's used as the starting point for any iteration through the list. The last node must have its next reference pointing to None to determine the end of the list.
+<h1 id="linked-lists">Linked lists</h1>
+<p>A linked list is a collection of nodes. The first node is called the head , and it's used as the starting point for any iteration through the list. The last node must have its next reference pointing to None to determine the end of the list.
 Each element of a linked list is called a node, and every node has two different fields:
 1.  Data contains the value to be stored in the node.
 2.  Next contains a reference to the next node on the list.</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>graph = {
-...     1: [2, 3, None],
-...     2: [4, None],
-...     3: [None],
-...     4: [5, 6, None],
-...     5: [6, None],
-...     6: [None]
-... }
-https://realpython.com/linked-lists-python/#:~:text=A%20linked%20list%20is%20a,the%20end%20of%20the%20list.</p>
-</blockquote>
-</blockquote>
-</blockquote></div>
+<p>https://realpython.com/linked-lists-python/#:~:text=A%20linked%20list%20is%20a,the%20end%20of%20the%20list.</p>
+<h2 id="demonstrate-linked-list">Demonstrate Linked List</h2>
+<pre><code>graph = {
+1: [2, 3, None],
+2: [4, None],
+3: [None],
+4: [5, 6, None],
+5: [6, None],
+6: [None]
+} 
+</code></pre></div>
             </div>
         </div>
 
