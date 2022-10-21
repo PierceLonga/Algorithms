@@ -11,4 +11,6 @@ nav:
     - Graphs: graphs.md
     - Sets: sets.md
     - Hash Tables: hash tables.md
+    - Linked Lists: linked lists.md
+    - Lists: lists.md
 
