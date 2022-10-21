@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Trees - Pierce Longamore</title>
+        <title>Linked Lists - Pierce Longamore</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -45,8 +45,8 @@
                             <li class="navitem">
                                 <a href="../stack/" class="nav-link">Stack</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Trees</a>
+                            <li class="navitem">
+                                <a href="../trees/" class="nav-link">Trees</a>
                             </li>
                             <li class="navitem">
                                 <a href="../graphs/" class="nav-link">Graphs</a>
@@ -57,8 +57,8 @@
                             <li class="navitem">
                                 <a href="../hash%20tables/" class="nav-link">Hash Tables</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../linked%20lists/" class="nav-link">Linked Lists</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Linked Lists</a>
                             </li>
                             <li class="navitem">
                                 <a href="../lists/" class="nav-link">Lists</a>
@@ -72,12 +72,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../stack/" class="nav-link">
+                                <a rel="prev" href="../hash%20tables/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../graphs/" class="nav-link">
+                                <a rel="next" href="../lists/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -98,23 +98,31 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#trees" class="nav-link">Trees</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="trees">Trees</h1>
-<p>A Tree is a Data structure in which data items are connected using references in a hierarchical manner. Each Tree consists of a root node from which we can access each element of the tree.
-https://www.pythonforbeginners.com/data-structures/tree-data-structure-in-python#:~:text=Conclusion-,What%20is%20a%20Tree%20Data%20Structure%20in%20Python%3F,each%20element%20of%20the%20tree.</p>
-<pre><code>class BinaryTreeNode: def __init__(self, data): 
-self.data = data self.leftChild = None 
-self.rightChild=None
-</code></pre></div>
+<p>•   Linked lists
+A linked list is a collection of nodes. The first node is called the head , and it's used as the starting point for any iteration through the list. The last node must have its next reference pointing to None to determine the end of the list.
+Each element of a linked list is called a node, and every node has two different fields:
+1.  Data contains the value to be stored in the node.
+2.  Next contains a reference to the next node on the list.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>graph = {
+...     1: [2, 3, None],
+...     2: [4, None],
+...     3: [None],
+...     4: [5, 6, None],
+...     5: [6, None],
+...     6: [None]
+... }
+https://realpython.com/linked-lists-python/#:~:text=A%20linked%20list%20is%20a,the%20end%20of%20the%20list.</p>
+</blockquote>
+</blockquote>
+</blockquote></div>
             </div>
         </div>
 
